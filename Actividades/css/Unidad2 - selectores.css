@@ -1,0 +1,91 @@
+
+/* TODO EL CONJUNTO DE INSTRUCCIONES SE LLAMA REGLA
+selector{
+    propiedad:valor; 
+}*/
+
+/*selectores basicos*/
+
+/*selector de etiquetas, aplica a todas las etiquetas
+a{
+    color:red;
+}*/
+
+/*selector de  clase, hace referencia con un punto (.)
+.parrafo{
+    color:blue;
+}*/
+
+/*selector de id, hace referencia con un gato (#)
+#parrafo{
+    color:green;
+}*/
+
+/*selector universal, se referencia con un *, se recomienda
+solo para resetear el navegador
+*{
+    backgraund:red;
+}*/
+
+/*seector de atributos
+se hace referencia con [], se selecconan los elementos que tengan */
+ese atrubuto
+[href]{
+    color:red;
+}
+
+/*selector de atributos con valor*/
+[href="#"]{
+    color: green;
+}
+
+/*seleccionar los elementos 
+que tiene ese atrubuto y valor al menos una vez*/
+[class~="verde"]{
+    color: blue;
+}*/
+
+/*seleccionar los elemetos que tienen ese atrubito y 
+exactamente ese valor o empiece con el calor seguido de un guion*/
+[class|="verde"]{
+    color: red;
+}
+
+/*seleccionar los elemetos que tienen ese atrubito y 
+empiecen por ese valor*/
+[class^="rojo"]{
+    color: purple;
+}
+
+/*seleccionar los elemetos que tienen ese atrubito y 
+terminen por ese valor*/
+[class$="verde"]{
+    color: orange;
+}
+
+/*selectores combinadores*/
+
+/*selector de hermano adyacente,
+selecciona un hermano que este juso debajo, hermano ingerio*/
+
+h1 + h2{
+    color: red;
+}
+
+/*selectores de hermono general, aplica los estilos a todos los hermanos
+que esten debajo de el que compartan el mismo padre*/
+
+h1 ~ h3{
+    color: blue;
+}
+
+/*selectores decendentes*/
+div span{
+    color:orange;
+}
+
+/*selector de hijo directo, busca relacion directa*/
+p > pan{
+    color: blue;
+}
+
