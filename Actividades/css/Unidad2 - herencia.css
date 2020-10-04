@@ -1,0 +1,70 @@
+/*HERENCIA*/
+p{
+    color: green;
+}
+
+a{
+    color: inherit; /*SE USA ESTE VALOR EN LA PROPIEDAD
+    QUE SE QUIERA PARA HEREDAR EL QUE TIENE EL VALOR*/
+}
+
+
+/*ESPECIFICIDAD -> CASCADA*/
+
+/*
+etiquetas -> 1
+clases -> 10
+id -> 100
+Estilos en linea -> 1000
+! important -> gana a todos
+*/
+
+.parrafo{
+    color:red;
+}
+
+#parrafo{
+    color: purple;
+}
+
+p{
+    color: blue !important;
+}
+
+#parrafo{
+    color: orange;
+}
+
+/*BOX MODEL*/
+
+h1{
+    background: lightblue;
+    width:100px
+}
+
+div{
+    background: lightcoral;
+    height:100px;
+    width:100px;
+    border:1px solid black;
+}
+
+a{
+    background: lightgreen;
+    height:1000px;
+}
+
+span{
+    background: red;
+    height:1000px;
+}
+
+.caja1{
+    background: lightgreen;
+    border:3px solid black;
+    padding:10px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+
