@@ -75,3 +75,30 @@ Espacio: es el espacio que ocupa el elemento en el documento, lo reserva el nave
     bottom:0;
     margin: auto;
 }
+
+body{
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.menu{
+    background: blue;
+    color: white;
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    /*
+    position: fixed;
+    width:100%;
+    top: 0;*/
+    position:sticky;
+    top:0
+
+}
+
+.banner{
+    height:100px;
+    background: darkgray;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
