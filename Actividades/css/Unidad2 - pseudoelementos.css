@@ -1,0 +1,33 @@
+/*Pseudoelementos
+
+::first-letter - elementos en bloque
+::first-line - elementos en bloque
+::selection 
+::before
+::after */
+
+
+.titulo::first-letter{
+    color:red;
+    font-size: 50px;
+}
+
+.linea::first-letter{
+    color:red;      /*IMPORTATE RECORDAR QUE LO QUE SE PONGA AQUI ADENTRO 
+        SOLO APLICA A LA PRIMERA LINEA, UN  display PONDRIA UNA CAJA EN LA PRIMERA LETRA
+        PERO NO AL ELEMENTO Y NO APLICA YA QUE EL ELEMENTO ES inline*/
+}
+
+.linea{
+    display: block;
+}
+
+.texto::first-line{
+    color: green;
+}
+
+.texto::selection{
+    color: red;
+    background: blue;
+}
+
