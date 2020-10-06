@@ -102,3 +102,21 @@ body{
     text-align: center;
     line-height: 100px;
 }
+
+/*Display
+inline (HACE A UN ELEMENTO EN LINEA)
+block (HACE A U ELEMENTO EN BLOQUE)
+inline-block (HACE A UN ELENTO EN LINEA QUE SOPORTA
+    LOS PROPIEDADES DEL BLOQUE, margin, padding)
+none (LOS OCULTA VISUALMENTE)*/
+
+.linea{
+    display:inline-block;
+    background: yellow;
+}
+
+.bloque{
+    display:block;
+    background: orangered;
+
+}
