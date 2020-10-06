@@ -31,3 +31,124 @@
     background: blue;
 }
 
+/*el before y after son pseudoelementos que ocupan un content de forma obligatoria aunque este vacio,
+    son elementos en linea por defecto pero pueden a adapatar forma de bloque.*/
+
+.dinero::before{
+    content:'$';
+    color: red;
+}
+
+.dinero::after{
+    content: '.00';
+    color: red;
+}
+
+
+/*pseudoclases
+:link   <- link no visitado
+:visited <- link visitado
+:active <- cuando se le d click
+:hover  <- cuando se tiene el cursor sobre el elemento
+:focus  <- para componentes, hacer que tomen un estilo cuando se le da el foco
+*/
+
+.enlace:link{
+    color:green;
+}
+
+.enlace:visited{
+    color: white;
+}
+
+.enlace:active{
+    background: red;
+    transform: scale(.8); /*HACE MAS PEQUEÑO A ESCALA EL TAMAÑO DEL COMPONENTE*/
+}
+
+.enlace{
+    padding: 10px;
+    display: inline-block;
+    background: blue;
+    color: white;
+    text-decoration: none; /*QUITA LA RAYA DEL ENLACE*/
+    border-radius: 5px; /*HACE CIRCULAR EL BLOQUE*/
+}
+
+.component:focus{
+    background: yellow;
+    font-size: 20px;
+}
+
+/*Estado
+:enabled
+:disabled
+:required
+:checked
+:opcional
+:valid
+:invalid
+:in-range
+:out-of-range*/
+
+ .input, .label{
+     display:block;
+ }
+
+
+.input:disabled{ /*SE AGREGA A LOS DESHABILIDATOS*/
+    border: 3px solid blue;
+}
+
+.input:required{ /*SE AGREGA A LOS requeridos*/
+    background: red;
+}
+
+.input:checked + label{
+    font-size: 30px;
+}
+
+.checkbox, .checkbox +label{
+    display: inline-block;
+}
+
+.input:in-range{
+    background: green;
+}
+.input:out-of-range{
+    background: red;
+}
+
+/*Estructurales
+child
+
+:first-child - selecciona el primer hijo, no importa el tipo del eleento
+:last-child - ultimo
+
+:nth-child(n) - selecciona al hijo n
+:nth-last-child() penultimo n
+:only child
+
+valores:
+odd - pares
+even - pares
+numeros enteros
+
+
+:first-of-type
+:last-of-type
+:nth-of-type
+
+*/
+
+.parrafo:first-child{ /*UBICA AL PRIMER HIJO DE UNA ESTRUCTURA*/
+    background: orangered;
+}
+
+.parrafo:nth-child(odd){
+    background: orange;
+}
+
+.parrafo:nth-child(even){
+    background: blue;
+}
