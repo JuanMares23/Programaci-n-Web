@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+header{
+    position: relative;
+    font-family: 'Abril Fatface', cursive;    
+}
+
+.logo{
+    display:inline;
+    width: 100px;
+}
+.listaOrdenada{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    width:75%;
+    text-align: right;
+    
+
+}
+main{
+    margin-bottom: 10px;
+}
+
+.listaOrdenada, li{
+    display: inline-block;
+    padding:5px 50px 2px;
+    border-right: 2px solid black;
+}
+
+.listaOrdenada:last-child{
+    border-right: none;
+}
+
+.listaOrdenada::after{
+    content: "";
+    display: block;
+    background: black;
+    height: 2px;
+}
+.seccion{
+    position: relative;
+}
+.textoPrincipal{
+    font-family: 'Abril Fatface', cursive;
+    display: inline-block;
+    width: 25%;
+    margin: 50px 100px 70px 250px;
+    text-align:center;
+    padding: 5px;
+    
+
+}
+
+.textoPrincipal + article{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    text-align: right;
+    margin:5px 50px;
+}
+
+.textoMayor1{
+    font-size: 80px;
+    margin:0;
+    line-height:65px;
+}
+.textoMayor2{
+    font-size: 45px;
+    margin:0;
+    line-height:35px;
+}
+
+
+footer{
+    background: black;
+    color: white;
+    font-family: Cambria;
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.derechos1{
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    line-height:2px;
+    margin: 20px 80px;
+    
+}
+.derechos2{
+    position: absolute;
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    margin: 20px 100px;
+    top: 0;
+    right: 0;
+    padding: 0;
+    line-height:14px;
+    
+    
+}
+.aumento{
+    font-family: fantasy;
+    font-size: 25px;
+}
