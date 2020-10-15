@@ -1,0 +1,40 @@
+#cuerpo{
+    max-width: 1350px;
+}
+
+.banner{
+    position: relative;
+    background:grey;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu{
+    background: blue;
+    color: white;
+    width: 1315px;   
+    border-radius: 5px;
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+}
+.pru{
+    display: inline-block;
+    background: lightgreen;
+    text-align: left;
+}
+
+.menu, ul, li{
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+
+.pru2{
+    display: inline-block;
+    float: right;
+    margin:10px 20px 0 0;
+}
