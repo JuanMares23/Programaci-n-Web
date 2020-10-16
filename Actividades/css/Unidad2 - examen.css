@@ -1,0 +1,120 @@
+
+.cuerpo{
+    max-width: 1360px;
+}
+
+.header{
+    text-align: center;
+}
+
+.header nav ul{
+    display: block;
+    border-top: 1px solid #aea9a7;
+    border-bottom: 1px solid #aea9a7;
+
+}
+
+.header nav ul li{
+    display: inline-block;
+    margin: 5px 30px;
+    color: 	#aea9a7
+}
+
+.header nav ul :last-child{
+    background-color: #f0be3f;
+    padding: 10px;
+    color: white;
+}
+.header nav ul :first-child{
+    color: black;
+    border-bottom: 4px solid #f0bf43;
+    padding: 17px 15px;
+    margin-bottom: 0px;
+}
+
+.seccion{
+    display: inline-block ;
+    width: 40%; 
+    text-align: left;
+    margin-left: 150px;
+}
+.prueba{
+    text-align: left;
+}
+
+/*IMAGENNNNNN*/
+.seccioniImagen{
+    display: inline-block;
+
+}
+.seccioniImagen img {
+    width: 500px;
+    margin-left: 5pxpx;
+}
+/* TEXTO PRNCIPAL*/
+.texto{
+    display: inline-block;
+    text-align: center;
+    margin-left: 70px;
+}
+.texto h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.seccion .texto .textoscentrales p{
+    color: black;
+    font-size: 20px;
+    
+}
+.textoEspecial{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.texto p{
+    color: #818181;
+}
+.texto a{
+    color: cyan;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*SECCION BAJA*/
+.seccionbaja{
+    text-align: center;
+}
+.seccionbaja h2{
+    padding:0px;
+    margin: 0px;
+}
+.seccionbaja p{
+    margin-top: 0px;
+    color: #818181;
+}
+
+/*FOOTHER*/
+.footer{
+    text-align: center;
+}
+.footer div{
+    display: inline-block;
+    margin: 5px 100px;
+}
+.footer img{
+    width: 100px;
+}
+
+.footer input{
+    padding: 15px 30px;
+    border: 1px solid #c59f52;
+    background-color: white;
+}
+
+
+
+
+
+
+
